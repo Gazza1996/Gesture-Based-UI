@@ -21,11 +21,14 @@ We a great choice of technologies to use for this project from our Gesture Based
 - Our first idea we thought out was using an arduino and having a camera plugged into it and by using this camera we would be able to recognise some different hand gestures or movements.
 
 ### Second Idea
-After more research and learning about how the Leap Motion works we decided to go down a different path. We would be keeping our arduino but get rid of the camera plugin and instead use a breadboard for our lights while our Leap Motion would be detecting our hand gestures.
+- After more research and learning about how the Leap Motion works we decided to go down a different path. We would be keeping our arduino but get rid of the camera plugin and instead use a breadboard for our lights while our Leap Motion would be detecting our hand gestures.
 
 ## Technology Used
 
 ### Leap Motion Controller
+
+
+- Download the SDK from https://www.leapmotion.com/setup/linux; Here will be the option to download at windows which will start downloading an .exe file.
 
 ### Arduino
 
