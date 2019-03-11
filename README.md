@@ -30,6 +30,15 @@ After researching the Leap Motion controller we discovered that the controller s
 
 ![N|Solid](Images/hand-gestures.jpg)
 
+Our main reason for choosing the above as the hand gestures for our project was that we believed these would be the most popular to be used in an application. 
+
+- The swipe gestures is most popular in regards to moving between pages or controller the direction of an object
+- The circle gesture could be incorporated into an application where a drag & drop feature is added or in a game wich requires you to throw something.
+- The screenTap would be used in an app where you want to click on a button.
+- The keyTap gesture can be used where we have an action where an app has a key press function.
+
+Our objective here is to have all these gestures in our code and when one is performed a colour will light up for each one.
+
 ## Technology/Hardware Used
 
 ### Leap Motion Controller
