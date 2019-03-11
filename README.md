@@ -35,8 +35,14 @@ The Leap Motion controller is a small USB peripheral device which is designed to
 - Download the SDK from https://www.leapmotion.com/setup/linux; Here will be the option to download at windows which will start downloading an .exe file.
 
 ### Arduino
+- Arduino is an open-source physical computing platform based on a simple I/O board and a development environment that implements the Processing/Wiring language. 
+
+![N|Solid](Images/arduino.jpg)
 
 ### BreadBoard Circuit
+Breadboard is retangular piece of plastic with a grid of holes that allows you to easily and quickly build an electronic circuits by pushing electronic components into the holes. Here is a similar one to one we used with come leds plugged into showing what we hope to implement.
+
+![N|Solid](Images/breadboard.jpg)
 
 ## Technologies Assembled
 
