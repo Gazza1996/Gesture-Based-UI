@@ -35,8 +35,10 @@ The Leap Motion controller is a small USB peripheral device which is designed to
 - Download the SDK from https://www.leapmotion.com/setup/linux; Here will be the option to download at windows which will start downloading an .exe file.
 
 ### Arduino
+![N|Solid](Images/arduino.jpg)
 
 ### BreadBoard Circuit
+![N|Solid](Images/breadboard.jpg)
 
 ## Technologies Assembled
 
