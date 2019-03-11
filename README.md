@@ -58,6 +58,11 @@ The Leap Motion controller is a small USB peripheral device which is designed to
 
 ![N|Solid](Images/breadboard.jpg)
 
+## Architecture for the solution
+From above we have our research section with our two ideas for the project. Below we have a diagram showing the architecture of our project clearly showing how everything will be connected up from our leap motion right around to our breadboard circuit.
+
+![N|Solid](Images/architecture.png)
+
 ## Technologies Assembled
 
 ## Demo Video
