@@ -72,3 +72,7 @@ From above we have our research section with our two ideas for the project. Belo
 ## Conclusion
 
 ## References
+- https://cylonjs.com/documentation/examples/cylon/js/leap_arduino/
+- https://cylonjs.com/documentation/platforms/arduino/
+- https://support.leapmotion.com/hc/en-us/articles/223782608-Linux-Installation
+- https://www.arduino.cc/en/Guide/HomePage
