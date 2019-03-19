@@ -65,6 +65,8 @@ From above we have our research section with our two ideas for the project. Belo
 
 ## Technologies Assembled
 
+## How To Run
+
 ## Demo Video
 
 ## Conclusion
