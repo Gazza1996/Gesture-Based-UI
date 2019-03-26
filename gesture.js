@@ -13,7 +13,8 @@ Cylon.robot({
   },
     //assign devices pinouts
     devices: {
-     
+      led2: { driver: "led", pin: 2, connection: "arduino" },
+      leapmotion: { driver: 'leapmotion' }
     },
 
   work: function(my) {
@@ -26,14 +27,17 @@ Cylon.robot({
               //console.log("Circle Gesture");
               switch (gesture.state){
                 case "start":
-                    console.log("Turning led11 On for Circle start");
+                    console.log("Turning led2 On for Circle start");
                     brightness = 0;
-                    my.led11.turnOn();
+                    my.led2.turnOn();
                     break;
-                
+                case "stop":
+                    console.log("Turning led2 Off for Circle stop");
+                    my.led2.turnOff();
+                    my.led2.brightness(0);
+                    break;
               }
               break;
-          
         }
       });
     });
