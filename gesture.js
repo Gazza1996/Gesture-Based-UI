@@ -15,6 +15,7 @@ Cylon.robot({
     devices: {
       led2: { driver: "led", pin: 2, connection: "arduino" },//circle  motion
       led4: { driver: "led", pin: 4, connection: "arduino" },// key tap motion
+      led6: { driver: "led", pin: 6, connection: "arduino" },// screen tap motion
       leapmotion: { driver: 'leapmotion' }
     },
 
@@ -47,10 +48,16 @@ Cylon.robot({
                     break;
               }
 
-              break; // key tap motion
+              break; 
+                    // key tap motion
                 case "keyTap":
                     console.log('Toggling led4 for keyTap Gesture');
                     my.led4.toggle();
+                break;
+                    // screen tap motion
+                case "screenTap":
+                console.log('Toggling led6 for screenTap Gesture');
+                my.led6.toggle();
                 break;
         }
       });
