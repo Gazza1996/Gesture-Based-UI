@@ -31,6 +31,14 @@ Cylon.robot({
                     brightness = 0;
                     my.led2.turnOn();
                     break;
+                case "update":
+                    if (brightness === 0) { fade = 1;} else if (brightness === 255) { fade = -1; }
+                    console.log("Turning led2 brightness from: " + my.led2.currentBrightness());
+                    brightness += fade;
+                    my.led2.brightness(brightness);
+                    console.log("to: " + my.led2.currentBrightness());
+                    if (brightness === 0) { fade = 1;} else if (brightness === 255) { fade = -1; }
+                    break;
                 case "stop":
                     console.log("Turning led2 Off for Circle stop");
                     my.led2.turnOff();
