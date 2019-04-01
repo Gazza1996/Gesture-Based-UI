@@ -64,6 +64,9 @@ From above we have our research section with our two ideas for the project. Belo
 ![N|Solid](Images/architecture.png)
 
 ## Technologies Assembled
+<img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/Images/view1.jpg" width="250" height="250">
+
+
 
 ## How To Run
 
