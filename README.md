@@ -46,12 +46,23 @@ The Leap Motion controller is a small USB peripheral device which is designed to
 
 ![N|Solid](Images/leap_motion.jpg)
 
-- Download the SDK from https://www.leapmotion.com/setup/linux; Here will be the option to download at windows which will start downloading an .exe file.
+- Download the SDK from https://www.leapmotion.com/setup/linux; We are using the Linux version as we are creating the project on a linux machine. Downloads are also available for Windows and MAC.
+###### Note: The following is for on Linux machines only.
+- Once the download is completed you will be asked to extract the files to a location and will see two DEB files in the folder.
+- Open your terminal on the location of this folder and you must install the DEB files by using the following command:
+```
+sudo dpkg --install Leap-*-x64.deb
+```
+###### Note: 64 bit machines only.
 
 ### Arduino
 - Arduino is an open-source physical computing platform based on a simple I/O board and a development environment that implements the Processing/Wiring language. 
 
 ![N|Solid](Images/arduino.jpg)
+
+- You can download the Arduino IDE [Here](https://www.arduino.cc/en/Main/Software)
+
+- For users on a Linux machine I would suggest watching the following video [Arduino IDE on Linux](https://www.youtube.com/watch?v=wh6StlwDBo0). It will go through how to properly install the IDE and it deals with any errors you should come across.
 
 ### BreadBoard Circuit
 - Breadboard is retangular piece of plastic with a grid of holes that allows you to easily and quickly build an electronic circuits by pushing electronic components into the holes. Here is a similar one to one we used with come leds plugged into showing what we hope to implement.
