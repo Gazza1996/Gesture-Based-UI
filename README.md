@@ -64,6 +64,12 @@ sudo dpkg --install Leap-*-x64.deb
 
 - For users on a Linux machine I would suggest watching the following video [Arduino IDE on Linux](https://www.youtube.com/watch?v=wh6StlwDBo0). It will go through how to properly install the IDE and it deals with any errors you should come across.
 
+- When the IDE is successfully installed you must then flash your arduino board using the StandardFirmata example.
+1. File->Examples->Firmata->StandardFirmata
+2. Double-check that your arduino board is connected to the port(Tools->Port)
+3. Once all is correct press the upload button(the right arrow button)
+4. Should any errors arise when uploading refer to the video above(Arduino IDE on Linux)
+
 ### BreadBoard Circuit
 - Breadboard is retangular piece of plastic with a grid of holes that allows you to easily and quickly build an electronic circuits by pushing electronic components into the holes. Here is a similar one to one we used with come leds plugged into showing what we hope to implement.
 
@@ -75,14 +81,19 @@ From above we have our research section with our two ideas for the project. Belo
 ![N|Solid](Images/architecture.png)
 
 ## Technologies Assembled
-<img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/Images1/view.jpg" width="250" height="250">
+<img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/Images1/view.jpg" width="350" height="350">
 
-<img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/Images1/view1.jpg" width="250" height="250">
+<img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/Images1/view1.jpg" width="350" height="350">
 
-<img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/Images1/view2.jpg" width="250" height="250">
+<img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/Images1/view2.jpg" width="350" height="350">
 
 
 ## How To Run
+1. Install [Node](http://www.nodejs.org/)
+2. ``` npm install ``` on your machine
+3. Install [cylonjs](https://cylonjs.com), a robotics framework for JavaScript applications.
+4. Make Sure your Leap Motion SDK is installed from above.
+5. Using the ``` npm install ```  make sure to download, ``` npm install Cylon ```, ``` npm install cylon-firmata```, ```npm install cylon-leapmotion```
 
 ## Demo Video
 
