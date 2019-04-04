@@ -136,11 +136,11 @@ and it should work fine.
 
 For the conclusion we are going to list them as pros and cons of the project.
 
-- Pros
+ Pros:
 - Demonstrates how the Leap Motion controller can be used in web applications.
 - Any issues were easily fixed as other people has the same problems.
 
-- Cons
+ Cons:
 - Can occasionally be glitchy when performing gestures. 
 - Arduino configurations can sometimes throw up errors.
 
