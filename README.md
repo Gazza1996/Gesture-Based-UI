@@ -70,6 +70,14 @@ sudo dpkg --install Leap-*-x64.deb
 3. Once all is correct press the upload button(the right arrow button)
 4. Should any errors arise when uploading refer to the video above(Arduino IDE on Linux)
 
+<img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot6.png">
+
+<img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot7.png">
+
+
+- If Standard Firmata fails to load just return the commands in the third terminal and run the StanderedFirmata file again,
+and it should work fine.
+
 ### BreadBoard Circuit
 - Breadboard is retangular piece of plastic with a grid of holes that allows you to easily and quickly build an electronic circuits by pushing electronic components into the holes. Here is a similar one to one we used with come leds plugged into showing what we hope to implement.
 
@@ -95,9 +103,47 @@ From above we have our research section with our two ideas for the project. Belo
 4. Make Sure your Leap Motion SDK is installed from above.
 5. Using the ``` npm install ```  make sure to download, ``` npm install Cylon ```, ``` npm install cylon-firmata```, ```npm install cylon-leapmotion```
 
+## Terminal Commands
+
+- Alright after you have everthing installed you need to do the following to get it up and running.
+- You need to clone it down from github to your desktop and click into the file you just downloaded. 
+when in the file right click in it and open terminal but select as root terminal not the standard terminal.
+And run ``` leapd ``` as shown below.
+
+<img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot2.png">
+
+- Next you need to open a second terminal in the same file and run the follwing command,  ``` LeapControlPanel ``` as shown below.
+
+<img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot3.png">
+
+- Now you should see a new green icon on the bottom of your toolbar menu, right click on it and select ``` Diagnostic Visualizer ```
+and you should be greeted with this screen as showing below.
+
+<img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot4.png">
+
+- Now we need to connect to the Arduino you need to open a third terminal. You just need to right click on the folder on the desktop and select treminal and run the followinng commands, ``` sudo chmod a+rw / dev/ttyACM0 ``` then enter your password if you are using linux.
+and finaly run ``` node lm.js ``` as this is the name of the javascript file.
+
+<img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot5.png">
+
 ## Demo Video
 
+
+
+https://www.youtube.com/watch?v=izteI-euwgo&feature=youtu.be
+
 ## Conclusion
+
+For the conclusion we are going to list them as pros and cons of the project.
+
+ Pros:
+- Demonstrates how the Leap Motion controller can be used in web applications.
+- Any issues were easily fixed as other people has the same problems.
+
+ Cons:
+- Can occasionally be glitchy when performing gestures. 
+- Arduino configurations can sometimes throw up errors.
+
 
 ## References
 - https://cylonjs.com/documentation/examples/cylon/js/leap_arduino/
