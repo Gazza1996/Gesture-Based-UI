@@ -113,9 +113,22 @@ and you should be greeted with this screen as showing below.
 
 <img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot4.png">
 
+- Now we need to connect to the Arduino you need to open a third terminal. You just need to right click on the folder on the desktop and select treminal and run the followinng commands, ``` sudo chmod a+rw / dev/ttyACM0 ``` then enter your password if you are using linux.
+and finaly run ``` node lm.js ``` as this is the name of the javascript file.
+
 <img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot5.png">
+
+- Now you need to navaget to where you downloaded your Arduino 1.8.9 file and run Arduino. double click
+on the arduino fine as showing on the image below and select Tools and select the right port. Next select file and 
+select Firmata, selcect SatandardFirmata select run and wait for it to compile, as showing below.
 <img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot6.png">
+
+- After that it should be done uploading and now you can use the hand jestures on the leap motion Diagnostic Visualizer page.
+
 <img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot7.png">
+
+- If Standered Firmata fails to load just rerun the commands in the third terminal and run the StanderedFirmata file again,
+and it should work fine.
 
 ## Demo Video
 
