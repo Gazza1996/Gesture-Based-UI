@@ -57,10 +57,6 @@ Cylon.robot({
                   console.log("turining led8 on for Swipe start");
                   my.led8.turnOn();
                   break;
-                case "stop":
-                  console.log("Turning led8 Off for Swipe Stop");
-                  my.led8.turnOff();
-                  break;
               }
           break;
         }
