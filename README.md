@@ -95,6 +95,15 @@ From above we have our research section with our two ideas for the project. Belo
 4. Make Sure your Leap Motion SDK is installed from above.
 5. Using the ``` npm install ```  make sure to download, ``` npm install Cylon ```, ``` npm install cylon-firmata```, ```npm install cylon-leapmotion```
 
+## Terminal Commands
+
+<img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot2.png">
+<img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot3.png">
+<img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot4.png">
+<img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot5.png">
+<img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot6.png">
+<img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot7.png">
+
 ## Demo Video
 
 ## Conclusion
