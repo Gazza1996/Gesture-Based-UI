@@ -134,6 +134,17 @@ and it should work fine.
 
 ## Conclusion
 
+For the conclusion we are going to list them as pros and cons of the project.
+
+- Pros
+- Demonstrates how the Leap Motion controller can be used in web applications.
+- Any issues were easily fixed as other people has the same problems.
+
+- Cons
+- Can occasionally be glitchy when performing gestures. 
+- Arduino configurations can sometimes throw up errors.
+
+
 ## References
 - https://cylonjs.com/documentation/examples/cylon/js/leap_arduino/
 - https://cylonjs.com/documentation/platforms/arduino/
