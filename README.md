@@ -97,8 +97,18 @@ From above we have our research section with our two ideas for the project. Belo
 
 ## Terminal Commands
 
+- Alright after you have everthing installed you need to do the following to get it up and running.
+You need to clone it down from github to your desktop and click into the file you just downloaded. 
+when in the file right click in it and open terminal but select as root terminal not the standered terminal.
+And run ``` leapd ``` as showing below.
+
 <img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot2.png">
+
+- Now you need to open a second terminal in the same file and run the follwing command,  ``` LeapControlPanel ``` as showing below.
+
 <img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot3.png">
+
+
 <img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot4.png">
 <img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot5.png">
 <img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot6.png">
