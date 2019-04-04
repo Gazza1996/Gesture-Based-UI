@@ -104,12 +104,15 @@ And run ``` leapd ``` as showing below.
 
 <img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot2.png">
 
-- Now you need to open a second terminal in the same file and run the follwing command,  ``` LeapControlPanel ``` as showing below.
+- Next you need to open a second terminal in the same file and run the follwing command,  ``` LeapControlPanel ``` as showing below.
 
 <img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot3.png">
 
+- Now you should see a new green icon on the bottom of your toolbar menu, right click on it and select ``` Diagnostic Visualizer ```
+and you should be greeted with this screen as showing below.
 
 <img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot4.png">
+
 <img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot5.png">
 <img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot6.png">
 <img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot7.png">
