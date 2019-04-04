@@ -70,6 +70,14 @@ sudo dpkg --install Leap-*-x64.deb
 3. Once all is correct press the upload button(the right arrow button)
 4. Should any errors arise when uploading refer to the video above(Arduino IDE on Linux)
 
+<img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot6.png">
+
+<img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot7.png">
+
+
+- If Standard Firmata fails to load just return the commands in the third terminal and run the StanderedFirmata file again,
+and it should work fine.
+
 ### BreadBoard Circuit
 - Breadboard is retangular piece of plastic with a grid of holes that allows you to easily and quickly build an electronic circuits by pushing electronic components into the holes. Here is a similar one to one we used with come leds plugged into showing what we hope to implement.
 
@@ -98,13 +106,13 @@ From above we have our research section with our two ideas for the project. Belo
 ## Terminal Commands
 
 - Alright after you have everthing installed you need to do the following to get it up and running.
-You need to clone it down from github to your desktop and click into the file you just downloaded. 
-when in the file right click in it and open terminal but select as root terminal not the standered terminal.
-And run ``` leapd ``` as showing below.
+- You need to clone it down from github to your desktop and click into the file you just downloaded. 
+when in the file right click in it and open terminal but select as root terminal not the standard terminal.
+And run ``` leapd ``` as shown below.
 
 <img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot2.png">
 
-- Next you need to open a second terminal in the same file and run the follwing command,  ``` LeapControlPanel ``` as showing below.
+- Next you need to open a second terminal in the same file and run the follwing command,  ``` LeapControlPanel ``` as shown below.
 
 <img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot3.png">
 
@@ -117,18 +125,6 @@ and you should be greeted with this screen as showing below.
 and finaly run ``` node lm.js ``` as this is the name of the javascript file.
 
 <img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot5.png">
-
-- Now you need to navaget to where you downloaded your Arduino 1.8.9 file and run Arduino. double click
-on the arduino fine as showing on the image below and select Tools and select the right port. Next select file and 
-select Firmata, selcect SatandardFirmata select run and wait for it to compile, as showing below.
-<img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot6.png">
-
-- After that it should be done uploading and now you can use the hand jestures on the leap motion Diagnostic Visualizer page.
-
-<img src="https://github.com/Gazza1996/Gesture-Based-UI/blob/master/ScreenS/Screenshot7.png">
-
-- If Standered Firmata fails to load just rerun the commands in the third terminal and run the StanderedFirmata file again,
-and it should work fine.
 
 ## Demo Video
 
